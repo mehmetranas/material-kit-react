@@ -1,7 +1,8 @@
 {
   "root": true,
   "project": {
-    "name": "Material-sanity-app"
+    "name": "Material-sanity-app",
+    "basePath": "/materialsanityapp"
   },
   "api": {
     "projectId": "b7njeiqy",
@@ -12,7 +13,8 @@
     "@sanity/components",
     "@sanity/default-layout",
     "@sanity/default-login",
-    "@sanity/desk-tool"
+    "@sanity/desk-tool",
+    "vercel-deploy"
   ],
   "env": {
     "development": {
